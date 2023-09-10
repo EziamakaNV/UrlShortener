@@ -37,7 +37,7 @@ To create a short URL, make a POST request to the api/shorten endpoint with the 
 curl -X POST -H "Content-Type: application/json" -d '{"url": "https://www.your-long-url.com"}' http://localhost:5001/api/shorten
 ```
 
-The API will return a JSON object with the short URL.
+The API will return a string with the short URL.
 
 ### Navigate to a Short URL
 To be redirected to the original URL, simply navigate to the short URL in your web browser.
